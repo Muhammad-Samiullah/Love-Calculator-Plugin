@@ -1,0 +1,134 @@
+<div class="form-div" style="margin-top: 50px">
+  <form class="calc-form">
+    <h4 class="site-heading white pb-3">Love Calculator</h4>
+    <div class="row ml-0 mr-0">
+      <div class="col-md-6 col-12 one" style="display: flex; align-items: center">
+        <img src="https://www.lovecalculator.club/img/like.png" alt="" style="width: 25px; height: 25px;" />
+        <input
+          type="text"
+          class="site-input"
+          id="name1"
+          name="name1"
+          placeholder="Name of Boy"
+          autocomplete="off"
+        />
+      </div>
+      <div class="col-md-6 col-12">
+        <input
+          type="text"
+          class="site-input"
+          id="mname"
+          name="mname"
+          placeholder="Mother Name"
+          autocomplete="off"
+        />
+      </div>
+    </div>
+    <div class="row ml-0 mr-0" style="margin-top: 20px">
+      <div class="col-md-3"></div>
+      <div class="col-md-2">
+        <select class="day-selector date" id="day1" style="width: 90px">
+          <option>Day</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <select id="month1" class="month-selector date" style="width: 90px">
+          <option>Mon</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <select id="year1" class="year-selector date" style="width: 90px" >
+          <option>Year</option>
+        </select>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <div style="border-top: 1px dashed white; margin-top: 30px; margin-bottom: 20px"></div>
+    <div class="row ml-0 mr-0">
+      <div class="col-md-6 col-12 two" style="display: flex; align-items: center">
+        <img
+          class="two-hearts"
+          src="https://www.lovecalculator.club/img/two-hearts.png"
+          alt=""
+		  style="width: 25px; height: 25px"
+        />
+        <input
+          type="text"
+          class="site-input"
+          name="name2"
+          id="name2"
+          placeholder="Name of Girl"
+          autocomplete="off"
+        />
+      </div>
+      <div class="col-md-6 col-12">
+        <input
+          type="text"
+          class="site-input"
+          id="mname2"
+          name="mname2"
+          placeholder="Mother Name"
+          autocomplete="off"
+        />
+      </div>
+    </div>
+    <div class="row ml-0 mr-0" style="margin-top: 20px">
+    <div class="col-md-3"></div>
+      <div class="col-md-2">
+        <select class="day-selector date" id="day2" style="width: 90px">
+          <option>Day</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <select id="month2" class="month-selector date" style="width: 90px">
+          <option>Mon</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <select id="year2" class="year-selector date" style="width: 90px">
+          <option>Year</option>
+        </select>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="col-12 pt-4">
+      <input
+        type="button"
+        id="calculator_submit"
+        class="site-submit"
+        name=""
+        value="Calculate"
+      />
+    </div>
+  </form>
+</div>
+
+<section
+  class="main-content"
+  style="margin-top: 50px; display: none; position: relative"
+>
+  <div class="progress">
+    <svg
+      class="progress-circle"
+      width="200px"
+      height="200px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle class="progress-circle-back" cx="80" cy="80" r="74"></circle>
+      <circle class="progress-circle-prog" cx="80" cy="80" r="74"></circle>
+    </svg>
+    <div class="progress-text" data-progress="100">100%</div>
+  </div>
+  <div class="my-4 text-center" style="margin-top: 20px">
+    <a
+      href=""
+      class="site-submit"
+      id="recalculate-btn"
+      style="font-weight: bold"
+      >Recalculate</a>
+  </div>
+
+  <p style="color: white">
+    Father Guru thinks this relationship has a reasonable chance of getting along, but on the other hand, maybe not. Your relationship may suffer from good and bad times. If things may not work out as you would like them to get along, do not hesitate to talk about it with the person involved. Spend time together, Talk to each other.
+  </p>
+</section>
